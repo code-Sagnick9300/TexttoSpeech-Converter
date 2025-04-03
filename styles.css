@@ -70,6 +70,7 @@ textarea:focus-visible{
 .app-container .select-voice-box{
     height: 120px;
     margin-top: 0px;
+    overflow: visible !important;
 }
 
 .app-container .select-voice-box .voice-choice{
@@ -79,6 +80,7 @@ textarea:focus-visible{
     display: flex;
     align-items: center;
     position: relative;
+    cursor: pointer;
     margin-top: 5px;
 }
 
@@ -115,7 +117,7 @@ textarea:focus-visible{
     position: absolute;
     max-height: 50px;
     /* height: 165px; */
-    top: 100%;
+    /* top: 100%; */
     left: 0;
     width:100%;
     overflow-y: auto;
@@ -127,11 +129,11 @@ textarea:focus-visible{
     box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
     padding: 15px;
     list-style-type: none; 
-    z-index: 1000;
+    z-index: 10;
 }
 
-.select-voice-options.show {
-    display: block;
+.select-voice-options .show {
+    display: block !important;;
 }
 
 .app-container .select-voice-box .select-voice-options li{
