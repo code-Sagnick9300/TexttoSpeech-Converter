@@ -129,11 +129,11 @@ textarea:focus-visible{
     box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
     padding: 15px;
     list-style-type: none; 
-    z-index: 10;
+    z-index: 100;
 }
 
 .select-voice-options .show {
-    display: block !important;;
+    display: block !important;
 }
 
 .app-container .select-voice-box .select-voice-options li{
