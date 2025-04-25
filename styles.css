@@ -160,17 +160,19 @@ textarea:focus-visible{
 .select-voice-box .btn{
     width: 156px;
     height: 36px;
-    text-decoration: none;
+    background: linear-gradient(to right, #11998e, #38ef7d);
+    border: 2px solid #2dd493;
+    color: #fff;
     margin-top: 15px;
-    background: linear-gradient(to right, #3f2b96, #00d2ff);  /*linear-gradient(110deg,#9b58d1c7,#883888d2,#6232d3ea); */
-    border: rgba(225, 33, 231, 0.925);
+    padding: 5px 14px;
+    border-radius: 8px;
+    font-size: 16px;
     cursor: pointer;
-    border-top-left-radius: 10px;
-    border-bottom-right-radius: 10px; 
+    transition: background 0.3s ease;
 }
 
 .select-voice-box .btn:hover{
-    background: linear-gradient(to right, #00d2ff, #3f2b96); /*linear-gradient(110deg,#686769c7,#7bbbdadc);*/
+    background: linear-gradient(to right, #38ef7d, #11998e); /*linear-gradient(110deg,#686769c7,#7bbbdadc);*/
     transform: scale(1.1);
     transition-duration: 1.2s;
 }
