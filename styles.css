@@ -176,3 +176,11 @@ textarea:focus-visible{
     transform: scale(1.1);
     transition-duration: 1.2s;
 }
+
+footer{
+    margin-top: auto;
+    background-color: #bfbfc0;
+    color: #0c0c0c;
+    text-align: center;
+    padding: 5px 10px;
+}
