@@ -257,3 +257,22 @@ footer{
     }
 }
 
+@media screen and (min-width: 720px) {
+    .logo {
+      width: auto;
+      justify-content: flex-start;
+      margin: 20px;
+    }
+  
+    .logo-content {
+      width: auto;
+      height: auto;
+    }
+  
+    .logo-content img {
+      width: auto;
+      height: auto;
+      max-height: 120px;
+      object-fit: contain;
+    }
+  }
