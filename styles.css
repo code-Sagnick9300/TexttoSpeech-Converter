@@ -35,7 +35,7 @@ body {
     color: black;
     font-size: 30px;
     font-weight: 600;
-
+    font-family: "Domine", serif;
 }
 
 .app-container h3{
@@ -52,7 +52,6 @@ body {
     top: 0;
     left: 0;
     justify-content:center;
-
 }
 
 .logo-content {
