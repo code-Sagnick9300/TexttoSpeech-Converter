@@ -52,7 +52,7 @@ body {
     top: 0;
     left: 0;
     justify-content:center;
-    margin-bottom: 20px;
+
 }
 
 .logo-content {
@@ -81,6 +81,9 @@ textarea{
     height: 200px;
     padding: 0 10px;
     margin: 20px 0;
+    font-family: "Noto Serif", serif;
+    font-style: italic;
+    color: #000;
     font-size: 15px;
     background-color: #e5e9e9ef; /*#b7b9b9d7*/
     border: 1px solid #fff;
@@ -101,6 +104,7 @@ textarea:focus-visible{
     height: 50px;
     border: 1px solid grey;
     border-radius: 10px;
+    flex-direction: column;
     display: flex;
     align-items: center;
     position: relative;
@@ -162,7 +166,8 @@ textarea:focus-visible{
 
 .app-container .select-voice-box .select-voice-options li{
     height: 30px;
-    width: 100%;
+    width: 95%;
+    margin-top: 10px;
     list-style: none;
     display: flex;
     align-items: center;
@@ -182,8 +187,6 @@ textarea:focus-visible{
 }
 
 .select-voice-box .btn{
-    width: 156px;
-    height: 36px;
     background: linear-gradient(to right, #11998e, #38ef7d);
     border: 2px solid #2dd493;
     color: #fff;
