@@ -159,7 +159,7 @@ textarea:focus-visible{
     z-index: 100;
 }
 
-.select-voice-options .show {
+.select-voice-options.show {
     display: block !important;
 }
 

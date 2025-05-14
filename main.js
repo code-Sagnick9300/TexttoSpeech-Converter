@@ -78,7 +78,7 @@ window.addEventListener("DOMContentLoaded", () => {
 // ✅ Toggle dropdown on caret click
 dropdownIcon.addEventListener("click", () => {
     voiceList.classList.toggle("show");
-    console.log(voiceList)
+    console.log(voiceList);
     dropdownIcon.classList.toggle("rotate");
     console.log("Dropdown toggled.");
 });
