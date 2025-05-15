@@ -47,7 +47,7 @@ function populateVoiceList(voices) {
         voiceInput.value = `${defaultVoice.name} (${defaultVoice.lang})`;
         console.log("Default voice set:", defaultVoice.name);
     }
-    voiceList.classList.add("show");
+    
 }
 
 //✅ Retry loading voices a few times
