@@ -164,9 +164,10 @@ textarea:focus-visible{
 }
 
 .app-container .select-voice-box .select-voice-options li{
+    padding: 5px 10px;
     height: 30px;
     width: 95%;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     list-style: none;
     display: flex;
     align-items: center;
